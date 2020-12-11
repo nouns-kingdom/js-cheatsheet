@@ -19,3 +19,9 @@ let s_obj = new String(s_prim)
 console.log(typeof s_prim); // "string"
 console.log(typeof s_obj);  // "object"
 
+
+// check string empty or undefined
+
+function isEmpty(str) {
+    return (!str || 0 === str.length);
+}
