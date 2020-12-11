@@ -13,3 +13,11 @@ function foo(x) {
 }
 
 foo(undefined)
+
+// check array undefined, null or length === 0
+var items = [1,2,3];
+if (typeof items != 'undefined' && items != null && items.length > 0) {
+    console.log('items is not empty array.');
+}else{
+   console.log('items is empty array.');
+}
