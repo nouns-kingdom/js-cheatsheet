@@ -7,3 +7,9 @@ function Person() {
 
 let p = new Person();
 //console.log(p.age);
+
+function foo(x) {
+    x = x !== undefined ? x : 42;
+}
+
+foo(undefined)
