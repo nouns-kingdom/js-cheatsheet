@@ -1,0 +1,14 @@
+What is the Difference Between null and undefined?
+
+Null vs Undefined
+The null is a data type in JavaScript used to assign a non-value to a variable.	
+The undefined is a data type in JavaScript used when a variable is declared but not assigned with a value.
+
+Value
+When the variable is assigned to null, the value is null.	
+When the variable is assigned undefined, the value is undefined.
+
+Data Type
+When the variable is assigned null, the data type is an object.	
+When the variable is assigned undefined, the data type is considered as undefined.
+
