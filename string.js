@@ -25,3 +25,12 @@ console.log(typeof s_obj);  // "object"
 function isEmpty(str) {
     return (!str || 0 === str.length);
 }
+
+
+
+string to array:
+str.split(" ")
+
+
+array to string:
+elements.jion(" ");
